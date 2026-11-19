@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts — Entreprise</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+            padding: 60px 20px;
+        }
+
+        main {
+            max-width: 750px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            margin-bottom: 40px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            padding: 22px 0;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .contact h2 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        .contact p {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .contact a {
+            color: #333;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.75rem;
+            color: #aaa;
+            text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            .contact {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Nos contacts.</h1>
+        <p class="subtitle">L'équipe de Nova Solutions</p>
+
+        <section class="contact">
+            <div>
+                <h2>Marie Dupont</h2>
+                <p>Directrice générale</p>
+            </div>
+            <a href="mailto:marie.dupont@nova-exemple.fr">
+                marie.dupont@nova-exemple.fr
+            </a>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h2>Thomas Bernard</h2>
+                <p>Responsable commercial</p>
+            </div>
+            <a href="mailto:thomas.bernard@nova-exemple.fr">
+                thomas.bernard@nova-exemple.fr
+            </a>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h2>Sophie Martin</h2>
+                <p>Responsable marketing</p>
+            </div>
+            <a href="mailto:sophie.martin@nova-exemple.fr">
+                sophie.martin@nova-exemple.fr
+            </a>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h2>Lucas Petit</h2>
+                <p>Développeur informatique</p>
+            </div>
+            <a href="mailto:lucas.petit@nova-exemple.fr">
+                lucas.petit@nova-exemple.fr
+            </a>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h2>Emma Laurent</h2>
+                <p>Assistante administrative</p>
+            </div>
+            <a href="mailto:emma.laurent@nova-exemple.fr">
+                emma.laurent@nova-exemple.fr
+            </a>
+        </section>
+
+        <footer>
+            © 2026 Nova Solutions — Tous droits réservés
+        </footer>
+    </main>
+
+</body>
+</html>
